@@ -1,0 +1,96 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.bio {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap:30px;
+}
+
+.country {
+    flex: 3;
+}
+
+footer {
+    background: #fd4766;
+    color: #fff;
+    text-align: center;
+    padding: 10px ;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.profile{
+    width:550px;
+    height: 550px;
+}
+
+.content h1 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 100%;
+  }
+  .content h1 span {
+    color: #fd4766;
+  }
+  .content p {
+    width: 100%;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .box{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 3.2fr 0.8fr;
+    gap:30px;
+  }
+  .country{
+    color: #fd4766;
+  }
+  .experience{
+    margin-left: 30px;
+
+  }
+  .anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+  }
+  .position{
+    font-style: italic;
+  }
+  nav li{
+    list-style-type: none;
+    display: inline-block;
+  } 
+  nav{
+    background-color: brown;
+    text-align: center;
+   }

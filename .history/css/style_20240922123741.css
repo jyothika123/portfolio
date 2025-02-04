@@ -1,0 +1,132 @@
+
+nav li{
+    list-style-type: none;
+    display: inline-block;
+   
+   } 
+   .anton-sc-regular {
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+   nav{
+    background-color: brown;
+    text-align: center;
+   }
+   nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    display: inline-block;
+   }
+   body{
+    font-family: sans-serif;
+    font-size: 16px;
+    word-wrap: break-word;
+   }
+  
+   .container{
+    width: 1200px;
+    margin: auto;
+   }
+  
+   .left-right{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    /*can be replaced by 1fr 1fr*/
+    gap: 30px;
+   }
+  
+   img{
+    max-width: 100%;
+   }
+  
+   .fullimg{
+    width: 100%;
+   }
+  .box0{
+    margin-top: 30px;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+   .box1{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap:30px;
+   }
+  
+   .box2{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+   }
+  
+   .box3{
+    display: block;
+    margin: auto;
+    width:50%
+   }
+  
+   .box4{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap:30px;
+   }
+  
+   .subbox1{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap:30px;
+   }
+  
+   .herotext{
+    border: 0px solid greenyellow;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.477);
+    width: 400px;
+    margin: auto;
+   }
+  
+   .hero{
+    position: relative;
+   }
+  
+   .herotxtparent{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+   }
+  
+   .heroflexwrapper{
+    display: flex;
+    vertical-align: middle;
+    height: 100%;
+   }
+  
+   .herotext p{
+    color:white;
+    padding: 20px;
+    font-size: 30px;
+    margin: auto;
+   }
+  
+   .herotext a{
+    color:white;
+    padding: 10px 30px 10px 30px;
+    display: inline-block;
+    border: 2px solid red;
+    text-decoration: none;
+    border-radius: 30px;
+   }
+   .herotext a:hover{
+    background-color: salmon;
+    color: black;
+   }
